@@ -1,0 +1,7 @@
+{
+  "installDependencies": true,
+  "startCommand": "npm run dev",
+  "env": {
+    "SASS_IMPLEMENTATION": "sass"
+  }
+}
