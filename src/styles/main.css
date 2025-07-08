@@ -1,3 +1,17 @@
+.boardContainer{
+    padding: 20px 50px;
+}
+
+.boardContainer button{
+    background-color:blue;
+    margin-bottom: 20px;
+}
+
+.removeBtn{
+    background-color: brown !important;
+    margin-left: 20px;
+}
+
 .board .boardRow {
     display: flex;
 }
@@ -6,4 +20,14 @@
     height: 50px;
     width: 50px;
     border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardCell .piece{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: burlywood;
 }
